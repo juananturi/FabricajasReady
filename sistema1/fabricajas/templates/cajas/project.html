@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block titulo %}   {% endblock %}
+
+{% block contenido %}
+
+<!-- Page Header Start -->
+<div class="page-header container-fluid bg-primary d-flex flex-column align-items-center justify-content-center">
+    <h1 class="display-3 text-uppercase mb-3">Exhibición</h1>
+    <div class="d-inline-flex text-white">
+        <h6 class="text-uppercase m-0"><a class="text-white" href="{% url 'inicio'%}">Inicio</a></h6>
+        <h6 class="m-0 px-3">/</h6>
+        <h6 class="text-uppercase m-0">Exhibición</h6>
+    </div>
+</div>
+<div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+     
+        <div class="row portfolio-container">
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                <div class="position-relative rounded overflow-hidden mb-2">
+                    <img class="img-fluid w-200" src="{% static 'img/ARCHIVO N°20 BASE TAPA REFORZARDA.png'%}" alt="">
+                    <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                        <a href="{% static 'img/ARCHIVO N°20 BASE TAPA REFORZARDA.png'%}" data-lightbox="portfolio">
+                            <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                <div class="position-relative rounded overflow-hidden mb-2">
+                    <img class="img-fluid w-100" src="{% static 'img/reempaque EX.jpg'%}" alt="">
+                    <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                        <a href="{% static 'img/reempaque EX.jpg'%}" data-lightbox="portfolio">
+                            <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                <div class="position-relative rounded overflow-hidden mb-2">
+                    <img class="img-fluid w-100" src="{% static 'img/caja pizza.png'%}" alt="">
+                    <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                        <a href="{%static 'img/caja pizza.png'%}" data-lightbox="portfolio">
+                            <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                <div class="position-relative rounded overflow-hidden mb-2">
+                    <img class="img-fluid w-100" src="{% static 'img/CAJAS ARCHIVO LETRAS NEGRAS.png'%}" alt="">
+                    <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                        <a href="{%static 'img/CAJAS ARCHIVO LETRAS NEGRAS.png'%}" data-lightbox="portfolio">
+                            <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                <div class="position-relative rounded overflow-hidden mb-2">
+                    <img class="img-fluid w-100" src="{% static 'img/caja lonchera.png'%}" alt="">
+                    <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                        <a href="{% static 'img/caja lonchera.png'%}" data-lightbox="portfolio">
+                            <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                <div class="position-relative rounded overflow-hidden mb-2">
+                    <img class="img-fluid w-100" src="{% static 'img/CAJA MALETÍN 2 BOTELLAS.png'%}" alt="">
+                    <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                        <a href="{% static 'img/CAJA MALETÍN 2 BOTELLAS.png'%}" data-lightbox="portfolio">
+                            <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio End -->
+
+<div class="whatsapp">
+    <a href="https://wa.me/573104420576?text=hola buen día me interesan sus productos">
+    <img src="{% static 'img/whatsapp.png'%}" class="img-fluid" alt=""></a>
+</div>
+
+{% endblock %}

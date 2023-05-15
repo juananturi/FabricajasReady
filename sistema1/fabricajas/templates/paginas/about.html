@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block titulo %} Nosotros {% endblock %}
+
+
+{% block contenido %} 
+
+    <div class="whatsapp">
+        <a href="https://wa.me/573104420576?text=hola buen día me interesan sus productos">
+        <img src="{% static '/img/whatsapp.png'%}" class="img-fluid" alt=""></a>
+    </div>  
+    <!-- Page Header Start -->
+    <div class="page-header container-fluid bg-primary d-flex flex-column align-items-center justify-content-center">
+        <h1 class="display-3 text-uppercase mb-3">Nosotros</h1>
+        <div class="d-inline-flex text-white">
+            <h6 class="text-uppercase m-0"><a class="text-white" href="{% url 'inicio' %}">Inicio</a></h6>
+            <h6 class="m-0 px-3">/</h6>
+            <h6 class="text-uppercase m-0">Nosotros</h6>
+        </div>
+    </div>
+    <!-- Page Header Start -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img class="img-fluid mb-4 mb-lg-0" src="{% static 'img/about.jpg'%}" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-4 text-uppercase mb-4">La Mejor Fabrica De Cajas De Carton En El Eje Cafetero </h1>
+                    <h5 class="text-uppercase text-primary mb-3"></h5>
+                    <p class="mb-4">Nos esforzamos día a día para brindar un excelente servicio a nuestros clientes, comprometiéndonos a ofrecerles productos de alta calidad y una atención personalizada.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- About Info Start -->
+    <div class="container-fluid py-5">
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-lg-4 mb-2">
+                    <div class="d-flex align-items-center bg-light rounded mb-4 px-5" style="height: 150px;">
+                        <i class="fa fa-3x fa-map-marker-alt text-primary mr-3"></i>
+                        <div class="d-flex flex-column">
+                            <h5 class="text-uppercase">Nuestra oficina</h5>
+                            <p class="m-0">Cll 15 #7-114 Bg 33 Zona Industrial La Macarena Dosquebrada</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-2">
+                    <div class="d-flex align-items-center bg-light rounded mb-4 px-5" style="height: 150px;">
+                        <i class="fa fa-3x fa-envelope-open text-primary mr-3"></i>
+                        <div class="d-flex flex-column">
+                            <h5 class="text-uppercase">
+                                Envíanos un correo electrónico</h5>
+                            <p class="m-0">Fabricajas@hotmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-2">
+                    <div class="d-flex align-items-center bg-light rounded mb-4 px-5" style="height: 150px;">
+                        <i class="fas fa-3x fa-phone-alt text-primary mr-3"></i>
+                        <div class="d-flex flex-column">
+                            <h5 class="text-uppercase">llamanos</h5>
+                            <p class="m-0">+57 310 4420576</p>
+                            <p class="m-0">330 0012</p>
+                            <p class="m-0">330 1753</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Info End -->
+
+    
+
+ {% endblock %}

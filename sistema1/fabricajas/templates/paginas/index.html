@@ -1,0 +1,420 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block titulo %} INICIO  {% endblock %}
+
+{% block contenido %}
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 px-0" style="margin-bottom: 90px;">
+        <div class="row mx-0 align-items-center">
+            <div class="col-lg-6 px-md-5 text-center text-lg-left">
+                
+                <h1 class="display-2 text-uppercase mb-3">Fabrica de cajas de carton </h1>
+                <p class="text-dark mb-4">Fabricación y venta de cajas de cartón corrugado nuevas y en cartón de segunda, cajas de archivo y cajas troqueladas.</p>
+                
+            </div>
+            
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img class="img-fluid mb-4 mb-lg-0" src="{% static 'img/about.jpg'%}" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-4 text-uppercase mb-4">La Mejor Fabrica De Cajas De Carton En El Eje Cafetero </h1>
+                    <h5 class="text-uppercase text-primary mb-3"></h5>
+                    <p class="mb-4">"Nos esforzamos día a día para brindar un excelente servicio a nuestros clientes, comprometiéndonos a ofrecerles productos de alta calidad y una atención personalizada." .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Services Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <h1 class="display-4 text-uppercase text-center mb-5">Nuestros Productos</h1>
+            <div class="row">
+                <div class="col-lg-3 mb-2">
+                    <a href="https://wa.me/573104420576?text=hola buen día me interesan las cajas nuevas">
+
+                        <div class="service-item rounded p-5 mb-4">
+                            <i class="fa fa-3x fa-solid fa-box text-primary mb-4"></i>
+                            <h4 class="text-uppercase mb-4">Venta <span class="d-block text-body">De Cajas Nuevas </span></h4>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <a href="https://wa.me/573104420576?text=hola buen día me interesan las cajas segunda">
+                        <div class="service-item rounded p-5 mb-4">
+                            <i class="fa fa-3x fa-solid fa-box-open text-primary mb-4"></i>
+                            <h4 class="text-uppercase mb-4">Venta <span class="d-block text-body">De Cajas Usadas</span></h4>
+
+                        </div>
+                    </a>    
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <a href="https://wa.me/573104420576?text=hola buen día me interesan las cajas De archivo">
+                        <div class="service-item rounded p-5 mb-4">
+                            <i class="fa fa-3x fa-solid fa-archive text-primary mb-4"></i>
+                            <h4 class="text-uppercase mb-4">Venta <span class="d-block text-body">Cajas De Archivo</span></h4>
+                            
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <a href="https://wa.me/573104420576?text=hola buen día me interesan las cajas troqueladas">
+                        <div class="service-item rounded p-5 mb-4">
+                            <i class="fa fa-3x fa-dolly text-primary mb-4"></i>
+                            <h4 class="text-uppercase mb-4">Venta <span class="d-block text-body">De Cajas troqueladas</span></h4>
+                        </div>
+                    </a>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <h1 class="display-4 text-uppercase text-center mb-5">Exhibición</h1>
+          
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-200" src="{% static 'img/ARCHIVO N°20 BASE TAPA REFORZARDA.png'%}" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="{% static 'img/ARCHIVO N°20 BASE TAPA REFORZARDA.png'%}" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="{% static 'img/reempaque EX.jpg'%}" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="{% static 'img/reempaque EX.jpg'%}" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="{% static 'img/caja pizza.png'%}" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="{% static 'img/caja pizza.png'%}" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="{% static 'img/CAJAS ARCHIVO LETRAS NEGRAS.png'%}" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="{%static 'img/CAJAS ARCHIVO LETRAS NEGRAS.png'%}" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="{% static 'img/caja lonchera.png'%}" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="{% static 'img/caja lonchera.png'%}" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="{% static 'img/CAJA MALETÍN 2 BOTELLAS.png'%}" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="{% static 'img/CAJA MALETÍN 2 BOTELLAS.png'%}" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+    <!-- Pricing Plan Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <h1 class="display-4 text-uppercase text-center mb-5">REFERENCIAS</h1>
+            <div class="row">
+                <div class="card portfolio-btn d-flex align-items-center justify-content-center " style="width: 15rem; margin: 0.5rem auto;">  
+                    <a href="{% static 'img/ARCHIVO N°20 BASE TAPA REFORZARDA.png'%}" data-lightbox="portfolio1">
+                        <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    <div class="bg-light rounded text-center pt-2 mt-lg-2 mb-1">
+                        <h5 class="text-uppercase">Archivo N°20  base tapa reforzada</h5>
+                        <h6 class="text-uppercase text-body mb-5">Medidas 40*30*26</h6>
+                        <P>Precio</P>
+                        <p>8.115</p>
+                        <p>Mas IVA</p>
+                        <a href="https://wa.me/573104420576?text=Hola me interesa su articulo Archivo N°20  base tapa reforzada Medidas 40X30X26" class="btn btn-dark text-uppercase py-2 px-4 my-3">Haz tu orden</a>
+                    </div>
+                </div>
+
+                <div class=" card portfolio-btn d-flex align-items-center justify-content-center " style="width: 15rem; margin: 0.5rem auto;">  
+                    <a href="{% static 'img/CAJAS ARCHIVO LETRAS NEGRAS.png'%}" data-lightbox="portfolio-2">
+                        <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    <div class="bg-light rounded text-center pt-2 mt-lg-2 mb-1">
+                        <h5 class="text-uppercase">Cajas archivo letras negras</h5>
+                        <h6 class="text-uppercase text-body mb-5">Medidas 42*21*26</h6>
+                        <P>Precios</P>
+                        <p>5.877</p>
+                        <p>Mas IVA</p>
+                        <a href="https://wa.me/573104420576?text=Hola me interesa su articulo Cajas archivo letras negras Medidas 42*21*26" class="btn btn-dark text-uppercase py-2 px-4 my-3">Haz tu orden</a>
+
+                    </div>
+                </div>
+
+                <div class=" card portfolio-btn d-flex align-items-center justify-content-center " style="width: 15rem; margin: 0.5rem auto;">  
+                    <a href="{% static 'img/caja letras verdez.png'%}" data-lightbox="portfolio-3">
+                        <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    <div class="bg-light rounded text-center pt-2 mt-lg-2 mb-1">
+                        <h5 class="text-uppercase">Caja archivo letras verdes</h5>
+                        <h6 class="text-uppercase text-body mb-5">Medidas 42*26*21</h6>
+                        <P>Precios</P>
+                        <p>4.617</p>
+                        <p>Mas IVA</p>
+                        <a href="https://wa.me/573104420576?text=Hola me interesa su articulo Caja archivo letras verdes Medidas 42*26*21" class="btn btn-dark text-uppercase py-2 px-4 my-3">Haz tu orden</a>
+
+                    </div>
+                </div>
+            
+                <div class=" card portfolio-btn d-flex align-items-center justify-content-center " style="width: 15rem; margin: 0.5rem auto;">  
+                    <a href="{% static 'img/caja pizza.png'%}" data-lightbox="portfolio-4">
+                        <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    <div class="bg-light rounded text-center pt-2 mt-lg-2 mb-1">
+                        <h5 class="text-uppercase">Cajas para pizza</h5>
+                        <h6 class="text-uppercase text-body mb-5">
+                            <select name="medida[]" id="">
+                                <option value="Caja pizza 21*21*5">Caja pizza 21*21*5</option>
+                                <option value="Caja pizza 27*27*5">Caja pizza 27*27*5</option>
+                                <option value="Caja pizza 30*30*5">Caja pizza 30*30*5</option>
+                                <option value="Caja pizza 35*35*5">Caja pizza 35*35*5</option>
+                                <option value="Caja pizza 35*35*8">Caja pizza 35*35*8</option>
+                                <option value="Caja pizza 40*40*5">Caja pizza 40*40*5</option>
+                            </select>
+           
+                        </h6>
+                        <P>Precios</P>
+                        <p>En Nuentra linea</p>
+                        <p>De atencion</p>
+                        <a href="https://wa.me/573104420576?text=Hola me interesa su articulo Caja Pizza  " 
+                       
+                         class="btn btn-dark text-uppercase py-2 px-4 my-3">Haz tu orden</a>
+
+                    </div>
+            
+                </div>
+
+                <div class=" card portfolio-btn d-flex align-items-center justify-content-center " style="width: 15rem; margin: 0.5rem auto;">  
+                    <a href="{% static 'img/caja espejo.png'%}" data-lightbox="portfolio-5">
+                        <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    <div class="bg-light rounded text-center pt-2 mt-lg-2 mb-1">
+                        <h5 class="text-uppercase">Caja espejo</h5>
+                        <h6 class="text-uppercase text-body mb-5">Medidas 13*4.5*32</h6>
+                        <P>Precios</P>
+                        <p>1.679</p>
+                        <p>Mas IVA</p>
+                        <a href="https://wa.me/573104420576?text=Hola me interesa su articulo Caja espejo Medidas 13*4.5*32" class="btn btn-dark text-uppercase py-2 px-4 my-3">Haz tu orden</a>
+                        
+                    </div>
+                </div>
+
+
+                <div class=" card portfolio-btn d-flex align-items-center justify-content-center " style="width: 15rem; margin: 0.5rem auto;">  
+                    <a href="{% static 'img/CAJA MALETÍN 2 BOTELLAS.png'%}" data-lightbox="portfolio-6">
+                        <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    <div class="bg-light rounded text-center pt-2 mt-lg-2 mb-1">
+                        <h5 class="text-uppercase">Caja maletín 2 botella</h5>
+                        <h6 class="text-uppercase text-body mb-5">Medidas 24.5*9*31</h6>
+                        <P>Precios</P>
+                        <p>1.690</p>
+                        <p>Mas IVA</p>
+                        <a href="" class="btn btn-dark text-uppercase py-2 px-4 my-3">Haz tu orden</a>
+                     </div>
+                </div>
+
+                <div class=" card portfolio-btn d-flex align-items-center justify-content-center " style="width: 15rem; margin: 0.5rem auto;">  
+                    <a href="{% static 'img/Maletin pequeño 1 botella.png'%}" data-lightbox="portfolio-7">
+                        <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    <div class="bg-light rounded text-center pt-2 mt-lg-2 mb-1">
+                        <h5 class="text-uppercase">Caja maletín 1 botella</h5>
+                        <h6 class="text-uppercase text-body mb-5">Medidas 16*8.5*30.5</h6>
+                        <P>Precios</P>
+                        <p>1.377</p>
+                        <p>Mas IVA</p>
+                        <a href="https://wa.me/573104420576?text=Hola me interesa su articulo Caja maletín 1 botella Medidas 16*8.5*30.5" class="btn btn-dark text-uppercase py-2 px-4 my-3">Haz tu orden</a>
+
+                     </div>
+                </div>
+
+                <div class=" card portfolio-btn d-flex align-items-center justify-content-center " style="width: 15rem; margin: 0.5rem auto;">  
+                    <a href="{% static 'img/portfolio-5.jpg'%}" data-lightbox="portfolio-8">
+                        <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    <div class="bg-light rounded text-center pt-2 mt-lg-2 mb-1">
+                        <h5 class="text-uppercase">Caja Lonchera pequeña</h5>
+                        <h6 class="text-uppercase text-body mb-5">Medidas 16*12*12</h6>
+                        <P>Precios</P>
+                        <p>1.240</p>
+                        <p>Mas IVA</p> 
+                        <a href="https://wa.me/573104420576?text=Hola me interesa su articulo Caja Lonchera pequeña Medidas 16*12*12" class="btn btn-dark text-uppercase py-2 px-4 my-3">Haz tu orden</a>
+
+                     </div>
+                </div>
+
+                <div class=" card portfolio-btn d-flex align-items-center justify-content-center " style="width: 15rem; margin: 0.5rem auto;">  
+                    <a href="{% static 'img/caja lonchera.png'%}" data-lightbox="portfolio-9">
+                        <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    <div class="bg-light rounded text-center pt-2 mt-lg-2 mb-1">
+                        <h5 class="text-uppercase">Caja Lonchera grande</h5>
+                        <h6 class="text-uppercase text-body mb-5">Medidas 22*14*16</h6>
+                        <P>Precios</P>
+                        <p>1.627</p>
+                        <p>Mas IVA</p>
+                        <a href="https://wa.me/573104420576?text=Hola me interesa su articulo Caja Lonchera grande Medidas 22*14*16" class="btn btn-dark text-uppercase py-2 px-4 my-3">Haz tu orden</a>
+
+                     </div>
+                </div>
+
+                <div class=" card portfolio-btn d-flex align-items-center justify-content-center " style="width: 15rem; margin: 0.5rem auto;">  
+                    <a href="{% static 'img/portfolio-10.jpg'%}" data-lightbox="portfolio-10">
+                        <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    <div class="bg-light rounded text-center pt-2 mt-lg-2 mb-1">
+                        <h5 class="text-uppercase">Caja Cofre #3</h5>
+                        <h6 class="text-uppercase text-body mb-5">Medidas 25.5*18*10</h6>
+                        <P>Precios</P>
+                        <p>1.879</p>
+                        <p>Mas IVA</p>
+                        <a href="https://wa.me/573104420576?text=Hola me interesa su articulo Caja Cofre #3 Medidas 25.5*18*10" class="btn btn-dark text-uppercase py-2 px-4 my-3">Haz tu orden</a>
+
+                     </div>
+                </div>
+
+                <div class=" card portfolio-btn d-flex align-items-center justify-content-center " style="width: 15rem; margin: 0.5rem auto;">  
+                    <a href="{% static 'img/portfolio-11.jpg'%}" data-lightbox="portfolio-11">
+                        <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    <div class="bg-light rounded text-center pt-2 mt-lg-2 mb-1">
+                        <h5 class="text-uppercase">Caja Cofre #2</h5>
+                        <h6 class="text-uppercase text-body mb-5">Medidas 24*19*10</h6>
+                        <P>Precios</P>
+                        <p>1.377</p>
+                        <p>Mas IVA </p>
+                        <a href="https://wa.me/573104420576?text=Hola me interesa su articulo Caja Cofre #2 Medidas 24*19*10" class="btn btn-dark text-uppercase py-2 px-4 my-3">Haz tu orden</a>
+
+                     </div>
+                </div>
+
+                <div class=" card portfolio-btn d-flex align-items-center justify-content-center " style="width: 15rem; margin: 0.5rem auto;">  
+                    <a href="{% static 'img/portfolio-6.jpg'%}" data-lightbox="portfolio-12">
+                        <i class="fa fa-4x fa-plus text-primary"></i>
+                        </a>
+                    <div class="bg-light rounded text-center pt-2 mt-lg-2 mb-1">
+                        <h5 class="text-uppercase">Caja Cofre #1</h5>
+                        <h6 class="text-uppercase text-body mb-5">Medidas 28*18*9</h6>
+                        <P>Precios</P>
+                        <p>1.389</p>
+                        <p>Mas IVA</p>
+                        <a href="https://wa.me/573104420576?text=Hola me interesa su articulo Caja Cofre #1 Medidas 28*18*9" class="btn btn-dark text-uppercase py-2 px-4 my-3">Haz tu orden</a>
+
+                     </div>
+                </div>
+
+            
+        </div>
+    <!-- Whatsapp icono -->
+<div class="whatsapp">
+    <a href="https://wa.me/573104420576?text=hola buen día me interesan sus productos">
+    <img src="{% static '/img/whatsapp.png'%}" class="img-fluid" alt=""></a>
+</div>        
+    </div>
+</div>
+        </div>
+    </div>
+    <!-- Pricing Plan End -->
+
+
+    <!-- Team Start -->
+  <!-- Estructura HTML del carrusel -->
+  <div class="container-fluid py-5">
+    <div class="container py-5">
+        <h1 class="display-4 text-uppercase text-center mb-5">NUESTROS CLIENTES </h1>
+            <section class="imagen-con-borde">
+                <img src="{% static 'img/SUZUKI.png'%}" alt="">
+                <img src="{% static 'img/riduco.jpg'%}" alt="">
+                <img src="{% static 'img/audifarma.jpg'%}" alt="">
+                <img src="{% static 'img/FRYSBI.jpg'%}" alt="">
+                <img src="{% static 'img/asc.png'%}" alt="">
+                <img src="{% static 'img/PANORAMA.jpg'%}" alt="">
+            </section>
+    </div>
+  </div>
+
+
+
+  <div class="carousel">
+    <div class="slides">
+        <img src="{% static 'img/SUZUKI.png'%}" alt="">
+        <img src="{% static 'img/riduco.jpg'%}" alt="">
+        <img src="{% static 'img/audifarma.jpg'%}" alt="">
+        <img src="{% static 'img/FRYSBI.jpg'%}" alt="">
+        <img src="{% static 'img/asc.png'%}" alt="">
+        <img src="{% static 'img/PANORAMA.jpg'%}" alt="">
+    </div>
+    <a class="prev" onclick="prevSlide()">&#10094;</a>
+    <a class="next" onclick="nextSlide()">&#10095;</a>
+  </div>
+   
+
+
+        
+    <!-- Team End -->
+
+    <!-- Adress start -->
+    <h1 class="display-4 text-uppercase text-center mb-5">Donde Puedes Encontrarnos  </h1>
+
+    <div class="container-fluid py-5 px-0">
+        <div class="row mt-5 mx-0">
+            <div class="col-12 px-0" style="height: 500px;">
+                <div class="position-relative h-100">
+                    <iframe class="position-relative w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1987.8353497185133!2d-75.68941727488097!3d4.826487572088769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38817dc197ed33%3A0x2a2a74388163d7fc!2sFabricajas!5e0!3m2!1ses!2sco!4v1672258662393!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+{% endblock %}
+

@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block titulo %} PRODUCTOS  {% endblock %}
+
+{% block contenido %}
+
+<!-- Page Header Start -->
+<div class="page-header container-fluid bg-primary d-flex flex-column align-items-center justify-content-center">
+    <h1 class="display-3 text-uppercase mb-3">Productos</h1>
+    <div class="d-inline-flex text-white">
+        <h6 class="text-uppercase m-0"><a class="text-white" href="{% url 'inicio' %}">Inicio</a></h6>
+        <h6 class="m-0 px-3">/</h6>
+        <h6 class="text-uppercase m-0">Productos</h6>
+    </div>
+</div>
+<!-- Page Header Start -->
+
+
+<!-- Services Start -->
+<div class="container-fluid py-5">
+<div class="container pt-5 pb-3">
+    <h1 class="display-4 text-uppercase text-center mb-5">Nuestros Productos</h1>
+    <div class="row">
+
+            <div class="col-lg-3 mb-2">
+                <a href="https://wa.me/573104420576?text=hola buen día me interesan las cajas nuevas">
+
+
+                    <div class="service-item rounded p-5 mb-4">
+                        <i class="fa fa-3x fa-solid fa-box text-primary mb-4"></i>
+                        <h4 class="text-uppercase mb-4">Venta <span class="d-block text-body">De Cajas Nuevas </span></h4>
+                </a>
+                        
+                    </div>
+                
+            </div>
+        <div class="col-lg-3 mb-2">
+            <a href="https://wa.me/573104420576?text=hola buen día me interesan las cajas segunda">
+                <div class="service-item rounded p-5 mb-4">
+                    <i class="fa fa-3x fa-solid fa-box-open text-primary mb-4"></i>
+                    <h4 class="text-uppercase mb-4">Venta <span class="d-block text-body">De Cajas Usadas</span></h4>
+                </a>
+                
+                    
+                </div>
+        </div>
+        <div class="col-lg-3 mb-2">
+            <a href="https://wa.me/573104420576?text=hola buen día me interesan las cajas De archivo">
+                <div class="service-item rounded p-5 mb-4">
+                    <i class="fa fa-3x fa-solid fa-archive text-primary mb-4"></i>
+                    <h4 class="text-uppercase mb-4">Venta <span class="d-block text-body">Cajas De Archivo</span></h4>
+                </a>
+
+                    
+                </div>
+        </div>
+        <div class="col-lg-3 mb-2">
+            <a href="https://wa.me/573104420576?text=hola buen día me interesan las cajas troqueladas">
+                <div class="service-item rounded p-5 mb-4">
+                    <i class="fa fa-3x fa-dolly text-primary mb-4"></i>
+                    <h4 class="text-uppercase mb-4">Venta <span class="d-block text-body">De Cajas troqueladas</span></h4>
+                </a>
+
+                    
+                </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Services End -->
+<div class="whatsapp">
+    <a href="https://wa.me/573104420576?text=hola buen día me interesan sus productos">
+    <img src="/img/whatsapp.png" class="img-fluid" alt=""></a>
+</div>  
+
+
+{% endblock %}

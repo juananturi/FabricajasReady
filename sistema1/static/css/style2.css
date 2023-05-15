@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem;
+    font-weight: 4400;
+    line-height: 1.5;
+    color: #686A6F;
+    text-align: left;
+    background-color: #ff0000;
+}
+img{
+    max-width: 100%;
+}
+article.card{
+    max-width: 500px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    margin: 1rem;
+    box-shadow: 0 0 12px #d7d7d7;
+}
+header-card img{
+   border-radius: 8px 8px 0 0;
+   max-width: 200px; 
+   height: 200px;
+   width: 100%;
+}
+.categoria-card{
+    margin-top: 1rem;
+}
+.categoria-card span{
+    background: #FFAA17;
+    color: #000000;
+    padding: .2rem .5rem;
+    border-radius: 4px;
+}
+.card footer{
+    padding: 0 1rem;
+}
+.perfil-card{
+    display: flex;
+}
+.img-perfil-card{
+    display: flex;
+}
+.img-perfil-card img{
+    width: 50px;
+    margin: 1rem 1rem 1rem 0;
+}
+.text-perfil-card{
+    display: flex;
+    flex-flow: column;
+    margin-left: 150px;
+}
+.text-perfil-card span:nth-child(2){
+    color: #cfcfcf;
+}
+.card-wrap{
+    display: flex;
+    flex-flow: wrap;
+    margin-left: 5rem;
+}
+
+#loading-screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #loading-dots {
+    font-size: 3em;
+  }
+  
+  #loading-dots span {
+    animation: loading-dots 1s infinite;
+  }
+  
+  @keyframes loading-dots {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .btn-custom {
+    background-color: #FFAA17;
+    color: #fff;
+    border-color: #FFAA17;
+}
+.btn-custom:hover {
+    background-color: #FFAA17;
+    border-color: #FFAA17;
+}
+
+footer{
+  background-color: #000000;
+  width: 100%;
+  
+
+}
+.carousel {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-image: url('https://i.imgur.com/rMwYDFD.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+  transform: scaleX(-1);
+}
+
+.images {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.image {
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+}
+section{
+  display: flex;
+  border-radius: 5px;
+  width: 500px;
+  height: 530px;
+  margin-left: 200px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+
+}
+
+section img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+
+}
+ 
+section img:hover{
+  cursor: crosshair;
+  width: 400px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.imagen-con-borde img {
+  border: 10px solid black;
+}
+
+.login-form {
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 10px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.login-form button[type="submit"] {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.login-title {
+  text-align: center;
+  margin-top: 50px; /* ajustar este valor según sea necesario */
+}
+section{
+  display: flex;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 800px;
+  height: 530px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+section img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+
+}
+
+section img:hover{
+  cursor: crosshair;
+  width: 400px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.imagen-con-borde img {
+  border: 3px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.imagen-con-borde img:hover {
+  border-color: #FFAA17;
+  box-shadow: 0px 0px 20px rgba(175, 165, 76, 0.6);
+  transform: scale(1.05);
+}
+
+@media (max-width: 767px) {
+  section {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  section img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*carrucel */
+
